@@ -1,0 +1,23 @@
+https://github.com/patrickloeber/chatbot-deployment
+
+Python 3.9 install
+
+pip install virtualenv
+
+virtualenv env
+
+.\env\Scripts\activate.ps1
+
+pip install Flask torch torchvision nltk
+
+python
+
+import nltk
+
+nltk.download('punkt')
+
+python train.py
+
+python chat.py
+
+python app.py
